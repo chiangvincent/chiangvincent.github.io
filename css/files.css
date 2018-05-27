@@ -1,6 +1,7 @@
 #test {
     color: #ffc5b7; 
 /*    third side of penrose triangle */
+/*    teal: #b5e4e7*/
 }
 
 body {
@@ -31,6 +32,12 @@ body h1 {
     float: left; 
 }
 
+#contact_info ul li:hover {
+    padding-right: 7%; 
+    list-style: none;
+    float: left; 
+}
+
 /* dljsadkf */ 
 #about {
     font-weight: 100; 
@@ -41,7 +48,7 @@ body h1 {
 /* writing the text box */
     width: 45%;
     padding-left: 22%; 
-    padding-top: 6%; 
+    padding-top: 4.45%; 
 
 } 
 #learn_more {
@@ -61,6 +68,8 @@ body h1 {
     height: 46%;
 }
 
+
+
 #top {
     top: 0;
     background-color: #384e72;
@@ -73,7 +82,8 @@ body h1 {
 }
 
 #learn_more ul {
-    margin-top: -2%; 
+    font-size: 0.987em; 
+    margin-top: -3%; 
     margin-left: -3.8%; 
     padding-left: -40%; 
     list-style: none;
@@ -87,11 +97,82 @@ body h1 {
 
 #learn_more ul li a {
     color: #384e72;
-    text-decoration: none;  
 }
 
-#learn_more ul li a:hover {
+#change_teal:hover {
+    color: #b5e4e7;
+    text-decoration: none;  
+    text-decoration-line: underline;  
+}
+
+#change_coral:hover {
     color: #ffc5b7;
     text-decoration: none;  
+    text-decoration-line: underline;  
+}
+
+#change_navy:hover {
+    text-decoration: none;  
+    text-decoration-line: underline;  
+}
+
+
+#ll {
+    border-top: -5%; 
+    width: 70%; 
+    list-style: none;  
+}
+
+#ll ul {
+    width: 100%; 
+}
+#logo_svg img {
+    padding-right: 10%; 
+    border: 0.5px dashed #384e72;
+    border-radius: 20px; 
+    padding: 30px;  
+}
+
+#exp_list {
+    width: 56%; 
+}
+    
+#ll li {
+    float: left;  
+}
+
+#ll li ul li {
+    padding-right: -10%; 
+    text-align: left; 
+    float: none;
+}
+
+/*
+
+.button {
+    border: 
+    color: #384e72;
+    font-family: "Poppins", sans-serif; 
+    background-color: white;
+    font-size: 1em; 
+    padding: 1.25%; 
+    border-style: solid; 
+    border-color: #384e72; 
+    border-width: medium; 
+    border-radius: 5px;
+    outline-style: groove; 
+    outline-width: thin; 
+    outline-color: #384e72; 
+}
+*/
+
+#exp_list a {
+    text-decoration-line: none; 
+    font-weight: 400; 
+}
+
+#exp_list li {
+    text-decoration-line: none; 
+    font-weight: 200; 
 }
 

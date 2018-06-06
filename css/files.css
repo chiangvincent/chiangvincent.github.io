@@ -12,6 +12,7 @@
 }
 */
 body {
+    position: relative; 
     background-color: #384e72; 
     color: ghostwhite; 
     font-family:'Poppins', "Open Sans","Trebuchet MS", sans-serif;
@@ -72,7 +73,7 @@ body h1 {
     position: fixed;
     left: 0;
     right: 0;
-    height: 46%;
+    height: 200px; 
 }
 
 

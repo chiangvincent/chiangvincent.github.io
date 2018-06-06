@@ -1,0 +1,52 @@
+body {
+    font-family: "Assistant", "Open Sans","Trebuchet MS", sans-serif;
+    font-size: 1em;
+    margin: 0px; 
+    padding: 0px; 
+}
+
+.top {
+    min-width: 600px; 
+    padding: 3.75em 20em 5em 15em;  
+    position: relative; 
+/*    padding: 75px 3501000100px 300px; */
+    color: ghostwhite; 
+    background-color: #384e72; 
+}
+
+.top_container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.top p {
+    color: ghostwhite; 
+    background-color: #384e72; 
+    font-weight: 200; 
+}
+
+#contact_links {
+    list-style: none; 
+    padding-left: 0px; 
+}
+
+#contact_links li {
+    float: left; 
+    padding-right: 100px; 
+}
+
+.bottom {
+    margin: 0; 
+    min-width: 600px; 
+    padding: 0 20em 5em 15em;  
+    position: relative; 
+/*    padding: 75px 3501000100px 300px; */
+    color: #384e72; 
+    background-color: ghostwhite; 
+}
+
+.bottom_container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+

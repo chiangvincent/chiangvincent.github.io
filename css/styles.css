@@ -3,17 +3,18 @@ teal: #b5e4e7
 salmon: #ffc5b7
 blue: #384e72
 */
+::selection {
+  background: #b5e4e7;
+}
 
 body {
     color: white; 
     font-weight: 200; 
-/*    font-family: "Assistant", "Open Sans","Trebuchet MS", sans-serif;*/
-    font-family:"Raleway", sans-serif; 
+    font-family:"Raleway", "Open Sans", sans-serif; 
     font-size: 19px;
     margin: 0px; 
     padding: 0px; 
     background: #384e72; 
-/*    background: linear-gradient(#384e72 50%, white 50%); */
     display: block;
     height: 100%; 
 }
@@ -65,50 +66,22 @@ body {
     transform: rotate(-25deg); 
 }
 
+#section_two {
+    width: 100%; 
+}
+
 #section_two h1 {
     font-size: 32px; 
     font-family: "Roboto Mono", monospace; 
     font-weight: 300; 
     display: block; 
-/*    font-weight: 600; */
     margin: 16px 0 18px 0; 
     padding-top: 0%; 
 }
 
-#descriptions {
-    margin-top: -10px; 
-    list-style: none; 
-    display: block; 
-    width: 87%; 
-}
-
-#need_float {
-    min-width: 75%; 
-    display: block; 
-    padding: 0; 
-    margin: 0; 
-}
-
-#descriptions li a {
-    color: white;
-    text-decoration: underline; 
-/*    text-decoration-style: dotted; */
-    text-decoration-color: #ffc5b7; 
-}
-
-#descriptions li a:hover {
-    cursor: pointer
-    font-weight: 500; 
-    text-decoration: none; 
-    color: #ffc5b7; 
-}
-
-.buttons {
-    display: inline;  
-}
-
 .buttons button {
-    margin-right: 15%; 
+    margin-top: 18px; 
+    vertical-align: middle; 
     font-family:"Raleway", sans-serif; 
     border-radius: 7px; 
     background-color: #384e72; 
@@ -144,40 +117,35 @@ body {
 }
 
 #button_list {
-    text-align: center; 
+    text-align: right; 
+    display: inline-block;  
     position: absolute;  
-    list-style: none; 
-    padding: 0px; 
-}
-
-#button_list li {
-    padding-left: 30%; 
-    width: 20%; 
-    display: block; 
-    text-align: right;
-    padding-bottom: 18px; 
-}
-
-#button_list li button {
+    list-style: none;
+    margin-top: -17px;
+    margin-left: -10px;
 }
 
 #profile {
     display: inline-block; 
-}
-
-#button_list {
-    text-align: center; 
-    margin: 0px; 
-    padding: 0px; 
-    display: inline-block; 
-}   
-
-#profile {
     height: auto;
     width: auto; 
     max-height: 150px; 
     max-width: 150px; 
     border-radius: 50%; 
+}
+
+#placeholder {
+    display: inline-block; 
+    position: relative;
+    height: 147px; 
+    width: 268px;  
+    margin-left: 26%; 
+    border: 0.7px solid white;
+}
+
+#last_line {
+    width: 100%; 
+    margin-bottom: 20px; 
 }
 
 

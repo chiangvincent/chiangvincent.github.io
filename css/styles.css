@@ -11,7 +11,7 @@ body {
     color: white; 
     font-weight: 200; 
     font-family:"Raleway", "Open Sans", sans-serif; 
-    font-size: 19px;
+    font-size: 16px;
     margin: 0px; 
     padding: 0px; 
     background: #384e72; 
@@ -20,6 +20,7 @@ body {
 }
 
 #about h1 {
+    margin-top: 5px;  
     font-size: 32px; 
     font-family: "Roboto Mono", monospace; 
     font-weight: 300; 
@@ -48,7 +49,7 @@ body {
 }
 
 #contact_links {
-    margin: -11px 0px -5px 0px; 
+    margin: 25px 0px -5px 0px; 
     list-style: none; 
     padding-left: 0px;
 }   
@@ -63,7 +64,7 @@ body {
 }
 
 #contact_links li a img:hover {
-    transform: rotate(-25deg); 
+    transform: rotate(-30deg);  
 }
 
 #section_two {
@@ -80,7 +81,7 @@ body {
 }
 
 .buttons button {
-    margin-top: 18px; 
+    margin-top: 52px; 
     vertical-align: middle; 
     font-family:"Raleway", sans-serif; 
     border-radius: 7px; 
@@ -121,7 +122,7 @@ body {
     display: inline-block;  
     position: absolute;  
     list-style: none;
-    margin-top: -17px;
+    margin-top: -16.6px;  
     margin-left: -10px;
 }
 
@@ -129,16 +130,17 @@ body {
     display: inline-block; 
     height: auto;
     width: auto; 
+    margin-top: 43px; 
     max-height: 150px; 
     max-width: 150px; 
     border-radius: 50%; 
 }
 
-#placeholder {
+#last_line #placeholder {
     display: inline-block; 
-    position: relative;
-    height: 147px; 
-    width: 268px;  
+    position: absolute;
+    top: 342px; 
+    left: 25%; 
     margin-left: 26%; 
     border: 0.7px solid white;
 }
@@ -148,8 +150,55 @@ body {
     margin-bottom: 20px; 
 }
 
+.hidden h5 {
+    font-size: 15px; 
+    padding: 0px 0px 7px 0px; 
+    margin: 0px;    
+}
 
+.hidden li {
+    padding: 0px 5px 0px 0px; 
+    font-size: 14px;
+}
 
+.hidden ul { 
+    padding: 0px 0px 0px 30px; 
+    margin: 0px 0px 0px 0px;    
+}
+
+#projects_text {
+    display: none; 
+    position: absolute; 
+    top: 342px; 
+    left: 50%; 
+    overflow-y: scroll; 
+    height: 215px; 
+    width: 300px; 
+}
+
+#experience_text {
+    display: none; 
+    position: absolute; 
+    top: 342px; 
+    left: 50%; 
+    overflow-y: scroll; 
+    height: 220px; 
+    width: 300px; 
+}
+
+#music_text {
+    display: none; 
+    position: absolute; 
+    top: 342px; 
+    left: 50%; 
+    overflow-y: scroll; 
+    height: 220px; 
+    width: 300px; 
+}
+
+.buttons #projects {
+    margin-top: 20px; 
+}
 
 
 

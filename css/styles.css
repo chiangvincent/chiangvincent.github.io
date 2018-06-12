@@ -9,7 +9,7 @@ blue: #384e72
 
 body {
     color: white; 
-    font-weight: 200; 
+    font-weight: 100; 
     font-family:"Raleway", "Open Sans", sans-serif; 
     font-size: 16px;
     margin: 0px; 
@@ -17,6 +17,10 @@ body {
     background: #384e72; 
     display: block;
     height: 100%; 
+}
+
+#about {    
+    width: 100%; 
 }
 
 #about h1 {
@@ -29,7 +33,7 @@ body {
 
 .wrapper {
     margin: 0 auto; 
-    max-width: 575px; 
+    max-width: 675px; 
     min-width: 300px; 
     padding: 30px 20px 0px 20px; 
 }
@@ -106,9 +110,9 @@ body {
     cursor: pointer; 
     font-family:"Raleway", sans-serif; 
     border-radius: 7px; 
-    background-color: white; 
+    background-color: #b5e4e7; 
     color: #384e72; 
-    border: 0.5px solid white; 
+    border: 0.5px solid #b5e4e7; 
     padding: 10px; 
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
@@ -119,8 +123,7 @@ body {
 
 #button_list {
     text-align: right; 
-    display: inline-block;  
-    position: absolute;  
+    display: inline-block;    
     list-style: none;
     margin-top: -16.6px;  
     margin-left: -10px;
@@ -138,13 +141,17 @@ body {
 
 #last_line #placeholder {
     display: inline-block; 
-    position: absolute;
-    top: 342px; 
-    left: 25%; 
-    margin-left: 26%; 
-    border: 0.7px solid white;
+    margin-top: 10px; 
+    margin-left: 30px; 
+    top: 341px; 
+    left: 100%; 
+    height: 210px; 
+    border: 0.75px solid white;
 }
 
+.hidden {
+    display: block;
+}
 #last_line {
     width: 100%; 
     margin-bottom: 20px; 
@@ -153,17 +160,52 @@ body {
 .hidden h5 {
     font-size: 15px; 
     padding: 0px 0px 7px 0px; 
-    margin: 0px;    
+    margin: 0px;
+}
+.hidden a {
+    font-family: "Roboto Mono", monospace; 
+    font-size: 15px; 
+    margin: 0px 0px 7px 0px; 
+    color: white; 
+    text-decoration: underline solid #ffc5b7; 
+    border: 1px soild green; 
+    font-weight: 400; 
+    font-size: 16px; 
+    -webkit-transition: .3s all;   
+    -moz-transition: .3s all;   
+    -ms-transition: .3s all;    
+    -o-transition: .3s all;    
+    transition: .3s all;     
 }
 
+.hidden a:hover {
+    font-size: 15px; 
+    margin: 0px 0px 7px 0px; 
+    color: #ffc5b7; 
+    text-decoration: none; 
+    font-weight: 400; 
+    font-size: 16px; 
+}
+
+
 .hidden li {
-    padding: 0px 5px 0px 0px; 
-    font-size: 14px;
+    padding: 0px 5px 5px 0px; 
+    font-size: 13px;
+}
+
+.hidden p {
+    text-align: left; 
+    font-size: 13px; 
+    margin: 0px 0px 5px 0px; 
 }
 
 .hidden ul { 
     padding: 0px 0px 0px 30px; 
     margin: 0px 0px 0px 0px;    
+}
+
+.hidden br {
+    line-height: 175%;  
 }
 
 #projects_text {
@@ -193,7 +235,7 @@ body {
     left: 50%; 
     overflow-y: scroll; 
     height: 220px; 
-    width: 300px; 
+    width: 300px;
 }
 
 .buttons #projects {
@@ -207,4 +249,4 @@ body {
 
 
 
-
+    

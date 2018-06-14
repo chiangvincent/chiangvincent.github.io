@@ -44,102 +44,72 @@
         </div>
             <div id="section_two">
               <h1>Learn more about me</h1>
-                <div id="last_line"> 
-                    <img id="profile" alt="profile" src="images/circle.png">
-                    <ul id="button_list"> 
-                        <div class="buttons">
-                            <li><button href="https://www.google.com" id="projects">Projects</button></li>
-                            <li><button href="https://www.google.com" id="experience">Experience</button></li>
-                            <li><button href="https://www.google.com" id="music">Music</button></li>
+                <div class="prof_button_place_container">
+                  <div id="button_list_container">
+                        <div id = "profile"> 
+                            <img id="profile_pic" alt="profile" src="images/circle.png">
                         </div>
-                    </ul>            
-                    <img id="placeholder" alt="Vincent Chiang Penrose Triangle" src="images/placeholder.svg">
+                        <ul id="button_list"> 
+                            <div class="buttons">
+                                <li><button href="https://www.google.com" id="projects">Projects</button></li>
+                                <li><button href="https://www.google.com" id="experience">Experience</button></li>
+                                <li><button href="https://www.google.com" id="music">Music</button></li>
+                            </div>
+                        </ul>
+                  </div>
+                  <div id="placeholder"> 
+                    <img id="triangle" alt="Vincent Chiang Penrose Triangle" src="images/placeholder.svg">
+                  </div>
+                        <div class="hidden" id="projects_text"> 
+                            <p>Projects give me a chance to build things I really value; it's important to me that my projects have potential for social impact. With every new project, I try to learn new frameworks, languages, and tools for a challenging (but rewarding!) experience. Here are some I've worked on in the past, and some planned for the future:</p>
+                            <a href="https://github.com/chiangvincent/hospitalityapp" target="_blank">Hospitality App (in progress)</a>
+                                <ul>    
+                                    <li>Built Python web app that recommends hospitals based on distance and medicare coverage surgical procedures</li>
+                                    <li>Worked wisth Google Maps, Places, and Geolocation APIs</li>
+                                    <li>Used MySQL for database, SQLAlchemy to construct queries and models, Python/Flask framework and Bootstrap CDN for backend and frontend design</li>
+                                </ul>
+                            <a href="https://devpost.com/software/directcal" target="_blank">DirectCal</a>
+                                <ul>    
+                                    <li>Developed Python program that directly creates events for Google Calendars from event flyer pictures</li>
+                                    <li>Worked with Google API Python Client to implement Google Calendar, Cloud Platform/Vision, Translate APIs</li>
+                                    <li>Built functions to extract and parse input data from pictures</li>
+                                    <li>Developed GUI with Tkinter</li>  
+                                </ul>
+                        </div>
+                        <div class="hidden" id="experience_text">
+                            <h5>Development Intern @ <a href="https://www.fireflies.ai" target="_blank">  Fireflies.ai</a></h5> 
+                                <ul> 
+                                    <li>Write Google scripts (JavaScript) to filter/clean sales ops data on Google Sheets pulled from Hubspot</li>
+                                    <li>SQL queries to analyze sales funnel data, create visualizations of user segments and sales performance</li>
+                                    <li>Design marketing automation stack with Autopilot and Mailchimp, design blog with Wordpress/CSS</li>
+                                </ul>
+                            <h5>Finance Intern @ <a href="http://www.dailycal.org/" target="_blank">  The Daily Californian</a></h5> 
+                                <ul> 
+                                    <li>Document and oversee monthly revenue, create production, discount, sales reports via Excel</li>
+                                    <li>Create invoices, enter legal sales orders, bills and checks into QuickBooks</li>
+                                </ul>
+                            <h5>Economics Intern @ <a href="http://ucsc-sip.org/" target="_blank"> SIP/UCSC</a></h5> 
+                                <ul> 
+                                    <li>Analyzed daily interest rate data for 19 countries using Stata-13, created data models and visualizations</li>
+                                    <li>Utilized the Bloomberg Vault to extract 20 years’ worth of daily exchange rates, compiled data with Excel</li>
+                                </ul>
+                        </div>
+                        <div class="hidden" id="music_text">
+                            <h5>Development Intern @ <a href="https://www.fireflies.ai" target="_blank">  Fireflies.ai</a></h5> 
+                                <ul> 
+                                    <li>Write Google scripts (JavaScript) to filter/clean sales ops data on Google Sheets pulled from Hubspot</li>
+                                    <li>SQL queries to analyze sales funnel data, create visualizations of user segments and sales performance</li>
+                                    <li>Design marketing automation stack with Autopilot and Mailchimp, design blog with Wordpress/CSS</li>
+                                </ul>
+                            <h5>Development Intern @ <a href="https://www.fireflies.ai" target="_blank">  Fireflies.ai</a></h5> 
+                                <ul> 
+                                    <li>Write Google scripts (JavaScript) to filter/clean sales ops data on Google Sheets pulled from Hubspot</li>
+                                    <li>SQL queries to analyze sales funnel data, create visualizations of user segments and sales performance</li>
+                                    <li>Design marketing automation stack with Autopilot and Mailchimp, design blog with Wordpress/CSS</li>
+                                </ul>
+                        </div>
+                    </div>
                 </div>  
-                <section class="hidden">
-                    <div id="projects_text"> 
-                        <p>Projects give me a chance to build things I really value; it's important to me that my projects have potential for social impact.<br>I make a conscious effort to challenge myself with every new project. Here are some I've worked on in the past, and some planned for the future!  
-                    </p>
-                        <a href="https://devpost.com/software/directcal" target="_blank">DirectCal</a>
-                            <ul>    
-                                <li>Developed Python program that directly creates events for Google Calendars from event flyer pictures</li>
-                                <li>Worked with Google API Python Client to implement Google Calendar, Cloud Platforms/Vision, Translate APIs</li>
-                                <li>Built functions to extract and parse input data from pictures</li>
-                                <li>Developed GUI with Tkinter</li>  
-                            </ul>
-                        <a href="https://devpost.com/software/directcal" target="_blank">DirectCal</a>
-                            <ul>    
-                                <li>Developed Python program that directly creates events for Google Calendars from event flyer pictures</li>
-                                <li>Worked with Google API Python Client to implement Google Calendar, Cloud Platforms/Vision, Translate APIs</li>
-                                <li>Built functions to extract and parse input data from pictures</li>
-                                <li>Developed GUI with Tkinter</li>  
-                            </ul>
-                    </div>
-                    <div id="experience_text">
-                        <h5>DirectCal</h5>
-                            <ul> 
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                                <li>jbird!</li>
-                            </ul>
-                    </div>
-                    <div id="music_text">
-                        <h5>DirectCal</h5>
-                            <ul>    
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                                <li>lunaaaa</li>
-                            </ul>
-                    </div>
-                </section>
-<!--                
-                    <ul id="descriptions">
-                        <li><a id = "change_coral" href="https://www.google.com">Projects:</a> Analyzing murder rate and death penalty, fastest driving directions for Berkeley, and more!
-                        </li>
-                        <li><a id = "change_teal" href="https://www.google.com">Experience:</a> Data Ops at Fireflies.ai, Finance at The Daily Californian, Data Analysis at UCSC
-                        </li>
-                        <li><a id = "change_navy" href="https://www.google.com">Music:</a> A mix of 60s jazz, folk, covers + originals made with love by me
-                        </li>
-                    </ul>
--->
           </div>
-    </div>
   </body>
 </html>

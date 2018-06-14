@@ -26,7 +26,8 @@ $(document).ready(function() {
             console.log(string); 
             if (string == button.id) {
                 var toShow = string += "_text"; 
-                console.log("#" + toShow); 
+                $("#" + toShow).css("display","flex");
+                $("#" + toShow).css("flex-wrap","wrap");
                 $("#" + toShow).fadeIn("medium");
             } else {
                 if (string == "placeholder") {
@@ -34,7 +35,7 @@ $(document).ready(function() {
                 } else {
                     var toShow = string += "_text"; 
                     $("#" + toShow).hide(); 
-                }
+                }   
             }
         }
         

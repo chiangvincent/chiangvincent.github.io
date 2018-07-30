@@ -12,7 +12,29 @@
 //        $("#placeholder").hide();
 //    });
 //}); 
+$(function() {
+    var img_con = document.getElementById("pic_container");
+    var next = document.getElementById("next"); 
+    var prev = document.getElementById("prev"); 
 
+    var images = ["IMG_4323.jpg", "IMG_4086.jpg", "IMG_4133.jpg", "IMG_4006.jpg", 
+                  "IMG_4070.jpg", "IMG_4052.jpg", "IMG_4072.jpg", "IMG_4142.jpg", 
+                  "IMG_4196.jpg", "IMG_4245.jpg", "IMG_4266.jpg"] 
+
+    var i = images.length;
+    
+    next.onclick = () =>{
+        i = (i<images.length) ?(i= i+1):(i=1); 
+        $('#image-zoom').attr("src", "images/nz_aus_photo/Images/"+images[i-1]);
+    }
+    
+    prev.onclick = () =>{
+        i = (i<images.length+1 && i>1) ?(i= i-1):(i=images.length);
+        $('#image-zoom').attr("src", "images/nz_aus_photo/Images/"+images[i-1]);
+    }
+    
+    
+});
 
 $(document).ready(function() {
     $(".buttons button").click(function(){

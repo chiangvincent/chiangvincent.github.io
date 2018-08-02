@@ -20,7 +20,7 @@ $(function() {
     var images = ["IMG_6629.jpg", "IMG_6628.jpg", "IMG_4006.jpg", "IMG_4142.jpg", 
                   "IMG_4323.jpg", "IMG_4196.jpg", "IMG_6621.jpg", "IMG_6617.jpg",
                   "IMG_4133.jpg", "IMG_6618.jpg", "IMG_4245.jpg", "IMG_4266.jpg",
-                  "IMG_4086.jpg", "IMG_4070.jpg", "IMG_4072.jpg"] 
+                  "IMG_4086.jpg", "IMG_4070.jpg", "IMG_4072.jpg", "main.svg"] 
 
     var i = images.length;
     

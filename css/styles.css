@@ -157,7 +157,13 @@ body {
     display: inline-block;
 }
 
+.x {
+    letter-spacing: 5px; 
+}
 
+.x h5:before {
+    content: "-"; 
+}
 .hidden h5 {
     font-family: "Roboto Mono", monospace; 
     font-size: 15px; 
@@ -312,7 +318,7 @@ body {
 }
 
 #prev {
-    left: -3%; 
+    left: -2%; 
     display: absolute; 
     opacity: 0; 
     transition: .3s all;   
@@ -320,7 +326,7 @@ body {
 }
 
 #next {
-    right: -3%; 
+    right: -2%; 
     display: absolute; 
     opacity: 0; 
     transition: .3s all;   

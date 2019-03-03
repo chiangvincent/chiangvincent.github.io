@@ -222,7 +222,7 @@ body {
 #triangle {
     height: 100%; 
     width: 100%; 
-    border: 0.75px solid white; 
+    border: 1px solid white; 
 }
 
 #placeholder {
